@@ -6,7 +6,7 @@ Brazil · 12+ years · Open to international remote opportunities
 
 I design and modernize multi-tenant platforms across healthcare, payments, insurance, and ERP. My work connects architecture, secure APIs, data performance, web and mobile experiences, and reliable cloud delivery.
 
-**[Explore my interactive portfolio →](https://kawmy.github.io/)**
+**[Explore my interactive portfolio →](https://armawndow.github.io/)**
 
 ## Selected engineering samples
 
@@ -14,9 +14,9 @@ New, standalone portfolio demonstrations with architecture notes, runnable sourc
 
 | Project | Engineering focus | Validation |
 | --- | --- | --- |
-| [TenantFlow · C# / .NET 10 API](https://github.com/kawmy/tenantflow-dotnet) | Tenant isolation, durable idempotency, ETags, transactional outbox, Azure Service Bus adapter | 6 integration tests passed locally |
-| [DeliveryBoard · C# / Blazor web](https://github.com/kawmy/deliveryboard-blazor) | Evidence-based release gates, pure domain policy, durable revisions and stale-edit protection | 17 tests passed locally; browser save/reload checked |
-| [TenantFlow companion · Flutter](https://github.com/kawmy/tenantflow-flutter) · [Live demo](https://kawmy.github.io/demos/tenantflow/) | Typed API client, explicit demo mode, request identity and concurrency feedback | 10 tests passed; clean analysis; release web build |
+| [TenantFlow · C# / .NET 10 API](https://github.com/armawndow/tenantflow-dotnet) | Tenant isolation, durable idempotency, ETags, transactional outbox, Azure Service Bus adapter | 6 integration tests passed locally |
+| [DeliveryBoard · C# / Blazor web](https://github.com/armawndow/deliveryboard-blazor) | Evidence-based release gates, pure domain policy, durable revisions and stale-edit protection | 17 tests passed locally; browser save/reload checked |
+| [TenantFlow companion · Flutter](https://github.com/armawndow/tenantflow-flutter) · [Live demo](https://armawndow.github.io/demos/tenantflow/) | Typed API client, explicit demo mode, request identity and concurrency feedback | 10 tests passed; clean analysis; release web build |
 
 The Flutter project is a new demonstration. Professional mobile experience below is .NET MAUI and Xamarin.Forms. Blazor is used for web. The Azure adapter compiles; no Azure cloud deployment is claimed for these samples.
 
@@ -67,8 +67,8 @@ Professional outcomes above come from my résumé and refer to selected workflow
 
 ## More public work
 
-- [.NET Docker, Kubernetes & SpecFlow](https://github.com/kawmy/.NETDockerK8sSpecFlow) — application, container, deployment configuration, and behavior scenarios.
-- [Git author investigation guide](https://github.com/kawmy/Guide-Tracking-Changes-by-an-Author-in-a-Git-Branch) — author-focused file history, diffs, and review material across PowerShell, CMD, and Bash.
+- [.NET Docker, Kubernetes & SpecFlow](https://github.com/armawndow/.NETDockerK8sSpecFlow) — application, container, deployment configuration, and behavior scenarios.
+- [Git author investigation guide](https://github.com/armawndow/Guide-Tracking-Changes-by-an-Author-in-a-Git-Branch) — author-focused file history, diffs, and review material across PowerShell, CMD, and Bash.
 
 ## Open-source work
 
@@ -89,6 +89,6 @@ Bachelor's degree in Computer Science, 2009 - 2012
 
 ## Contact
 
-- [Portfolio](https://kawmy.github.io/)
+- [Portfolio](https://armawndow.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/armando-francisco-9108853b3/)
 - [Email](mailto:armandofranciscodenardi004@gmail.com)
