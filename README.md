@@ -1,57 +1,74 @@
 # Armando Francisco Denardi
 
-### Senior C# / .NET Platform & Full-Stack Engineer
+### Principal C# / .NET Platform & Full-Stack Engineer
 
-Brazil · Open to international remote opportunities
+Brazil · 12+ years · Open to international remote opportunities
 
-I build and modernize enterprise software across healthcare, payments, insurance, and ERP. My 12+ years of experience span backend platforms, full-stack product development, SQL performance, integrations, and reliable delivery.
+I design and modernize multi-tenant platforms across healthcare, payments, insurance, and ERP. My work connects architecture, secure APIs, data performance, web and mobile experiences, and reliable cloud delivery.
 
-I like working through the whole problem: understanding the workflow, tracing the failure, improving the design, and making the result easier to operate and maintain.
+**[Explore my interactive portfolio →](https://kawmy.github.io/)**
 
-## What I work on
+## Selected engineering samples
 
-- **Backend engineering:** C#, ASP.NET Core, REST APIs, asynchronous processing, EF Core, and LINQ.
-- **Full-stack development:** React, Angular, and TypeScript interfaces for data-intensive business workflows.
-- **Data and performance:** SQL Server, PostgreSQL, MySQL, query tuning, indexing, and data-access modernization.
-- **Distributed systems:** microservices, background jobs, idempotency, retries, structured error handling, and integration diagnostics.
-- **Security and delivery:** role-based authorization, audit logging, validation, Docker, CI/CD, and automated testing.
+New, standalone portfolio demonstrations with architecture notes, runnable source, and automated tests:
 
-## Experience
+| Project | Engineering focus | Validation |
+| --- | --- | --- |
+| [TenantFlow · C# / .NET 10 API](https://github.com/kawmy/tenantflow-dotnet) | Tenant isolation, durable idempotency, ETags, transactional outbox, Azure Service Bus adapter | 6 integration tests passed locally |
+| [DeliveryBoard · C# / Blazor web](https://github.com/kawmy/deliveryboard-blazor) | Evidence-based release gates, pure domain policy, durable revisions and stale-edit protection | 17 tests passed locally; browser save/reload checked |
+| [TenantFlow companion · Flutter](https://github.com/kawmy/tenantflow-flutter) · [Live demo](https://kawmy.github.io/demos/tenantflow/) | Typed API client, explicit demo mode, request identity and concurrency feedback | 10 tests passed; clean analysis; release web build |
+
+The Flutter project is a new demonstration. Professional mobile experience below is .NET MAUI and Xamarin.Forms. Blazor is used for web. The Azure adapter compiles; no Azure cloud deployment is claimed for these samples.
+
+## Professional experience
 
 **Zoobook Systems LLC · Principal C# / .NET Full-Stack Engineer**  
-*Remote, United States · January 2022 - October 2026*
+*United States, remote · March 2024 - September 2026 · Contract completed after successful launch*
 
-Built capabilities for a behavioral-health EHR platform across clinical documentation, patient management, scheduling, billing, claims, and reporting. Worked on React/TypeScript interfaces and ASP.NET Core APIs, healthcare access controls, integrations, and background processing.
-
-Modernized selected API and data-access workflows with async/await, EF Core, LINQ, and SQL tuning, improving response times by about 30%. Standardized Docker-based delivery and automated test/release workflows, reducing manual release activity by about 40%.
+- Architected multi-tenant behavioral-health EHR capabilities across clinical documentation, scheduling, provider, billing, claims, and reporting; standardized tenant-aware authorization, configuration, data access, and caching.
+- Led incremental modernization to .NET 8 and .NET 10. Async processing, EF Core/LINQ, SQL tuning, and caching improved selected workflow response times by about **30%**.
+- Built REST and GraphQL layers with schemas, resolvers, filtering, pagination, validation, and authorization.
+- Delivered reusable React/TypeScript and Blazor interfaces and .NET MAUI clinician/operations workflows with secure API access, offline-aware handling, and shared domain logic.
+- Implemented AWS patterns with ECS/Fargate, RDS, S3, CloudWatch, IAM, and Secrets Manager. Docker CI/CD and xUnit/Moq automation reduced manual release activity by about **40%**.
 
 **Zūm Rails · Senior .NET Full-Stack Engineer**  
-*Remote, Montréal, Canada · 2019 - 2021*
+*Montréal, Canada, remote · January 2021 - December 2023*
 
-Developed payment services and Angular operations interfaces covering payment initiation, transaction status, reconciliation, refunds, and reporting. Focused on service boundaries, idempotent processing, validation, retry behavior, and production support.
+- Engineered payment services spanning U.S. ACH aligned with NACHA rules, Canadian EFT, initiation, settlement, reconciliation, refunds, accounts, and transaction status.
+- Connected Angular/TypeScript operations interfaces to ASP.NET Core APIs; designed idempotency, validation, retry, and webhook/event handling.
+- Implemented Azure App Service, Functions, Service Bus, Blob Storage, Key Vault, and Azure SQL with Azure DevOps pipelines for repeatable multi-environment delivery.
+- Improved selected transaction-heavy response times by about **25%** through async processing, query tuning, fewer requests, and targeted caching.
 
-**i4Pro · C# / .NET Full-Stack Engineer**  
-*São Paulo, Brazil · June 2016 - December 2018*
+**i4Pro · Staff C# Backend Engineer**  
+*Promoted from C# / .NET Full-Stack Engineer · São Paulo, Brazil · June 2016 - December 2020*
 
-Delivered policy and claims workflows with C#, ASP.NET MVC/Web API, Angular, Entity Framework, and SQL Server. Improved validation, routing, integrations, authorization, and operational reporting.
+- Led technical design and mentored engineers through architecture discussions, code/design reviews, and root-cause debugging across policy and claims modules.
+- Delivered quotation, issuance, endorsement, claims, customer, financial, and reporting capabilities with C#, Angular, Entity Framework, and SQL Server.
+- Automated selected claims validation/routing workflows to reduce manual handling by about **25%**; SQL optimization reduced selected report processing time by about **35%**.
+- Supported Xamarin.Forms field/claims capabilities with shared validation and API integration logic.
 
 **TOTVS · Software Engineer**  
 *Belo Horizonte, Brazil · January 2014 - May 2016*
 
-Worked on enterprise ERP and back-office capabilities using C#, .NET Framework, ASP.NET, Entity Framework, SQL Server, JavaScript/jQuery, and REST/SOAP integrations.
+Built financial, accounting, administrative, and operational capabilities for TOTVS RM. Refactored reusable C#/Entity Framework components, integrated REST/SOAP services and JavaScript/jQuery interfaces, and improved selected search/report/export operations by about **20%** through targeted SQL optimization.
+
+Professional outcomes above come from my résumé and refer to selected workflows, not platform-wide benchmarks. Employer systems are separate from the public sample repositories.
 
 ## Technology stack
 
-**Backend:** C# · .NET 8/6 · .NET Core · .NET Framework · ASP.NET Core · Web API · ASP.NET MVC · EF Core · LINQ  
-**Frontend:** React · Angular · TypeScript · JavaScript · HTML · CSS · Bootstrap  
-**Data:** SQL Server · PostgreSQL · MySQL  
-**Cloud and delivery:** AWS · Docker · GitHub Actions · Azure DevOps · CI/CD · Git  
-**Quality:** xUnit · NUnit · Moq · Swagger/OpenAPI · Postman · Clean Architecture · SOLID
+**Platform:** C# · .NET 10/8/6 · .NET Core/Framework · ASP.NET Core · Web API/MVC · EF Core/EF · LINQ  
+**Web:** React · Angular · Blazor · TypeScript · JavaScript · HTML/CSS · Bootstrap  
+**Mobile:** .NET MAUI · Xamarin.Forms  
+**Data:** SQL Server · PostgreSQL · MySQL · Redis  
+**Architecture:** REST · GraphQL · microservices · event-driven systems · multi-tenancy · Clean Architecture · SOLID  
+**Azure:** App Service · Functions · Service Bus · Blob Storage · Key Vault · Azure SQL  
+**AWS:** ECS/Fargate · EC2 · Lambda · S3 · RDS · CloudWatch · IAM · Secrets Manager  
+**Delivery & quality:** Docker · Azure DevOps · GitHub Actions · CI/CD · xUnit · NUnit · Moq · Swagger/OpenAPI · Postman
 
-## Selected public projects
+## More public work
 
-- [Git author investigation guide](https://github.com/kawmy/Guide-Tracking-Changes-by-an-Author-in-a-Git-Branch) - a practical guide to tracking an author's changes in a Git branch.
-- [.NET Docker, Kubernetes & SpecFlow](https://github.com/kawmy/.NETDockerK8sSpecFlow) - a .NET container, Kubernetes deployment, and automated-testing project.
+- [.NET Docker, Kubernetes & SpecFlow](https://github.com/kawmy/.NETDockerK8sSpecFlow) — application, container, deployment configuration, and behavior scenarios.
+- [Git author investigation guide](https://github.com/kawmy/Guide-Tracking-Changes-by-an-Author-in-a-Git-Branch) — author-focused file history, diffs, and review material across PowerShell, CMD, and Bash.
 
 ## Open-source work
 
@@ -72,5 +89,6 @@ Bachelor's degree in Computer Science, 2009 - 2012
 
 ## Contact
 
+- [Portfolio](https://kawmy.github.io/)
 - [LinkedIn](https://www.linkedin.com/in/armando-francisco-9108853b3/)
 - [Email](mailto:armandofranciscodenardi004@gmail.com)
